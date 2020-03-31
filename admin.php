@@ -74,64 +74,35 @@ $pdo = new PDO('mysql:host=localhost;dbname=alpha;charset=utf8', 'root', '', arr
 
 
       <div class="container-fluid">
-        <div class=" col-12 col-lg-6 text-center">
-          <label> VETEMENT</label>
-        </div>
 
-         <div class="col-12 col-lg-6 text-center">
-           <input type="text" name="type" >
-        </div>
+      <form method="POST" enctype="multipart/form-data">
+          <label class="col-lg-6 text-center"> VETEMENT</label>
+          <input  class="col-lg-6" type="text" name="type" >
 
-        <div class="col-12 col-lg-6 text-center">
-          <label> NOM</label>
-        </div>
+          <label class="col-lg-6 text-center"> NOM</label>
+          <input class="col-lg-6" type="text" name="nom" >
 
-        <div class="col-12 col-lg-6 text-center">
-           <input type="text" name="nom" >
-        </div>
+          <label class="col-lg-6 text-center">PRIX</label>
+          <input class="col-lg-6" type="text" name="prix">
 
-        <div class="col-12 col-lg-6 text-center">
-          <label>PRIX</label>
-        </div>
+          <label class="col-lg-6 text-center"> COMPOSITION</label>
+          <input class="col-lg-6" type="text" name="matiere">
 
-        <div class="col-12 col-lg-6 text-center">
-          <input type="text" name="prix">
-        </div>
+         <label class="col-lg-6 text-center">IMAGE</label>
+         <input class="col-lg-4" type="text" name="photo">
 
-        <div class="col-12 col-lg-6 text-center">
-          <label>COMPOSITION</label>
-        </div>
+          <input type="hidden" name="MAX_FILE_SIZE" value="30000000" />
+          <button  class="col-lg-2 btn1" type="file" name="photo" accept="image/png, image/jpeg">AJOUT</button>
 
-        <div class="col-12 col-lg-6 text-center">
-           <input type="text" name="matiere" >
-        </div>
-
-        <div class="col-12 col-lg-6 text-center">
-          <label>IMAGE</label>
-        </div>
-
-        <div class="col-12 col-lg-4 text-center">
-            <input type="text" name="photo">
-        </div>
-
-        <div class="col-12 col-lg-2 text-center">
-           <input type="hidden" name="MAX_FILE_SIZE" value="30000000" />
-          <button type="file" name="photo" accept="image/png, image/jpeg" class="btn1">AJOUT</button>
-        </div>
-
-        <div class="col-12 col-lg-6 text-center">
-          <label> DESCRIPTIF</label>
-
-          <div class="bouton">
-           <button type="submit" class="btn2">ENVOYEZ</button>
+          <div class="col-lg-6 block">
+            <label class="text-center"> DESCRIPTIF</label>
+            <button type="submit" class="btn2">ENVOYEZ</button>
           </div>
-        </div>
 
-        <div class="col-12 col-lg-6">
-             <input class="word" type="text" name="description">
-        </div>
+          <input class="col-lg-6 word" type="text" name="description">
 
-      </div>
+      </form>
+    </div>
   </div>
 
     <div class=" col-12 col-lg-1 omega1 text-center">

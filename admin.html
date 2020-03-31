@@ -20,6 +20,7 @@
 
 
 <div class="container-fluid">
+  <div class="created-info">L'article a bien été ajouté</div>
 
   <ul class=" navbar-nav col-12 col-lg-1">
     <li>
@@ -39,68 +40,39 @@
 
 
       <div class="container-fluid">
-        <div class=" col-12 col-lg-6 text-center">
-          <label> VETEMENT</label>
-        </div>
 
-         <div class="col-12 col-lg-6 text-center">
-           <input type="text" >
-        </div>
+      <form method="POST" enctype="multipart/form-data">
+          <label class="col-lg-6 text-center"> VETEMENT</label>
+          <input  class="col-lg-6" type="text" name="type" >
 
-        <div class="col-12 col-lg-6 text-center">
-          <label> NOM</label>
-        </div>
+          <label class="col-lg-6 text-center"> NOM</label>
+          <input class="col-lg-6" type="text" name="nom" >
 
-        <div class="col-12 col-lg-6 text-center">
-           <input type="text" >
-        </div>
+          <label class="col-lg-6 text-center">PRIX</label>
+          <input class="col-lg-6" type="text" name="prix">
 
-        <div class="col-12 col-lg-6 text-center">
-          <label>PRIX</label>
-        </div>
+          <label class="col-lg-6 text-center"> COMPOSITION</label>
+          <input class="col-lg-6" type="text" name="matiere">
 
-        <div class="col-12 col-lg-6 text-center">
-          <input type="text" >
-        </div>
+         <label class="col-lg-6 text-center">IMAGE</label>
+         <input class="col-lg-4" type="text" name="photo">
 
-        <div class="col-12 col-lg-6 text-center">
-          <label>COMPOSITION</label>
-        </div>
+          <input type="hidden" name="MAX_FILE_SIZE" value="30000000" />
+          <input  class="col-lg-2" type="file" name="photo" accept="image/png, image/jpeg"></input>
 
-        <div class="col-12 col-lg-6 text-center">
-           <input type="text" >
-        </div>
-
-        <div class="col-12 col-lg-6 text-center">
-          <label>IMAGE</label>
-        </div>
-
-        <div class="col-12 col-lg-4 text-center">
-            <input type="text" >
-        </div>
-
-        <div class="col-12 col-lg-2 text-center">
-          <button type="submit" class="btn1">AJOUT</button>
-        </div>
-
-        <div class="col-12 col-lg-6 text-center">
-          <label> DESCRIPTIF</label>
-
-          <div class="bouton">
-           <button type="submit" class="btn2">ENVOYEZ</button>
+          <div class="col-lg-6 block">
+            <label class="text-center"> DESCRIPTIF</label>
+            <button type="submit" class="btn2">ENVOYEZ</button>
           </div>
-        </div>
 
-        <div class="col-12 col-lg-6">
-             <input class="word "type="text">
-        </div>
+          <input class="col-lg-6 word" type="text" name="description">
 
-      </div>
-      
+      </form>
+    </div>
   </div>
 
     <div class=" col-12 col-lg-1 omega1 text-center">
-      <a href="./adminwear.html">
+      <a href="./home.html">
         <img src="./image/logo/omega.png" alt="logo">
       </a>
     </div>

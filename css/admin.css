@@ -116,3 +116,9 @@ footer {
     left: 0;*/
     background: white;
 }
+
+
+form {
+	display: flex;
+	flex-wrap: wrap;
+}

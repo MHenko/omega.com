@@ -117,8 +117,34 @@ footer {
     background: white;
 }
 
-
 form {
 	display: flex;
 	flex-wrap: wrap;
+}
+
+.created-info {
+  display: none;
+  font-size: 30px;
+  position: fixed;
+  background-color: green;
+  color: lightgreen;
+  height: 50px;
+  left: 50%;
+  width: 350px;
+  margin-left: -175px;
+  text-align: center;
+  filter: drop-shadow(0px 0px 15px lightgreen);
+    z-index: 1000;
+}
+
+.show {
+  display: block;
+  animation-name: fade-out;
+  animation-duration: 4s;
+}
+
+@keyframes fade-out {
+  0% {opacity: 1}
+  75% {opacity: 0.5}
+  100% {opacity: 0}
 }

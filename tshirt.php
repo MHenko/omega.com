@@ -62,14 +62,19 @@ $pdo = new PDO('mysql:host=localhost;dbname=alpha;charset=utf8', 'root', '', arr
         // Requêtes SQL pour récupérer toutes les lignes d'une table de la base de données
         $result = $pdo->query("SELECT * FROM wear");
         // Boucle pour lister les résultats de la requête précédente
-        while($listeWears = $result->fetch(PDO::FETCH_ASSOC)){ ?>
+        while($listeWears = $result->fetch(PDO::FETCH_ASSOC))
+
+        { 
+      ?>
 
         <figure class="col-12 col-lg-2">
-       
-          <a href="./article.html">
+
+        <form class="article" method="get" action="article.php">
+          <a href="./article.php?id=<?php echo $listeWears["id"]; ?>" type="submit" id="<?php echo $listeWears["id"]; ?>">
+
             <img src="<?php echo $listeWears["photo"]; ?>" alt="t-shirt">
             <figcaption>
-              <h5 class="impact text-center"><?php echo $listeWears["type"]; ?> </h5>
+              <h5 class="impact text-center"><?php echo $listeWears["type"]; ?></h5>
               <h5 class="impact text-center"><?php echo $listeWears["nom"]; ?></h5>
               <h5 class="impact text-center"><?php echo $listeWears["prix"]; ?></h5>
             </figcaption>  
@@ -90,7 +95,7 @@ $pdo = new PDO('mysql:host=localhost;dbname=alpha;charset=utf8', 'root', '', arr
       </div>
 
       <div class="col-12 col-sm-1 text-center bleu">
-        <a href="./tshirt.html">T-SHIRTS</a>
+        <a href="./tshirt.php">T-SHIRTS</a>
       </div>
 
       <div class="col-12 col-sm-1 text-center">

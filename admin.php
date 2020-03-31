@@ -7,7 +7,7 @@ $pdo = new PDO('mysql:host=localhost;dbname=alpha;charset=utf8', 'root', '', arr
   //vérifie si une image a été envoyée via le formulaire
   if (isset($_FILES['photo']) && !empty($_FILES['photo'])) {
     //remplace les caractères spéciaux du nom du fichier par un tiret
-    $photoName = preg_replace( '/[^a-z0-9]+/', '-', strtolower( $_FILES['photo']['name'] ) );
+    $photoName = preg_replace( '/[^a-z0-9]+/', '.', strtolower( $_FILES['photo']['name'] ) );
 
     //défini le chemin d'enregistrement du fichier
     $photoPath = "images-articles/$photoName";

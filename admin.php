@@ -8,6 +8,7 @@ $pdo = new PDO('mysql:host=localhost;dbname=alpha;charset=utf8', 'root', '', arr
   if (isset($_FILES['photo']) && !empty($_FILES['photo'])) {
     //remplace les caractères spéciaux du nom du fichier par un tiret
     $photoName = preg_replace( '/[^a-z0-9]+/', '-', strtolower( $_FILES['photo']['name'] ) );
+
     //défini le chemin d'enregistrement du fichier
     $photoPath = "images-articles/$photoName";
     //récupère le chemin d'enregistrement temporaire de l'image
@@ -92,7 +93,7 @@ $pdo = new PDO('mysql:host=localhost;dbname=alpha;charset=utf8', 'root', '', arr
          <input class="col-lg-4" type="text" name="photo">
 
           <input type="hidden" name="MAX_FILE_SIZE" value="30000000" />
-          <button  class="col-lg-2 btn1" type="file" name="photo" accept="image/png, image/jpeg">AJOUT</button>
+          <input  class="col-lg-2 btn1" type="file" name="photo" accept="image/png, image/jpeg">AJOUT</input>
 
           <div class="col-lg-6 block">
             <label class="text-center"> DESCRIPTIF</label>

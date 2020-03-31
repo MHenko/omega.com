@@ -1,0 +1,181 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	border: 2px solid black;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+.container-fluid {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row {
+	width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.col-12 {
+	padding: 0px;
+    height: max-content;
+}
+
+
+.navbar-nav:hover{
+width:163px;
+overflow:visible;
+}
+
+li {
+	overflow: hidden;
+}
+
+.navbar-nav {
+position:absolute;
+top:0;
+bottom:0;
+left:80;
+width:1px;
+transition: width .4s linear;
+-webkit-transform:translateZ(0) scale(1,1);
+z-index:1000;
+border:2px solid black;
+background-color: white;
+}
+
+
+.nav-item{
+	height: 110px;
+	border-right:1px solid black;
+	border-bottom: 4px solid black;
+	border-left: 2px solid black;
+}
+
+.nav-link {
+	font-size: 24px;
+	font-weight: 700;
+	text-decoration: none;
+	color: #000;
+	height: 100%;
+	padding-top: 40px;
+}
+
+.nav-item:hover {
+	background-color: black;
+	color: #fff;
+}
+
+.nav-link:hover {
+	color: #fff;
+}
+
+.icone img {
+	width: 50px;
+	margin: 30px 50px;
+}
+
+.icone:hover {
+	filter: invert(1);
+}
+
+.omega1 {
+	height: 222px;
+	padding-top: 60px;
+	border: 2px solid black;
+	border-top: 2px solid black;
+	border-bottom: 4px solid black;
+}
+
+
+figure {
+	padding: 0px;
+	margin: 0px;	
+}
+
+/*.image {
+	height: 1000px;
+	overflow-y: scroll;
+	background: black;
+}
+
+
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: black; 
+  border-radius: 10px;
+}*/
+
+
+figure img {
+    width: 100%;
+    height: 882px;
+    padding: 0px;
+    margin: 0px;
+    border: 2px solid black;
+    object-fit: cover;
+}
+
+h1 {
+	height: 150px;
+	border: 2px solid black;
+	padding: 50px 0px;
+	margin: 0px;
+}
+
+h2 {
+	height: 150px;
+	border: 2px solid black;
+	padding: 50px 0px;
+	margin: 0px;
+}
+
+
+h3 {
+	height: 144px;
+	border: 2px solid black;
+	padding: 50px 0px;
+	margin: 0px;
+}
+
+.hop {
+	background: #000 !important;
+	color: #fff !important;
+	cursor: pointer;
+}
+
+
+footer {
+	width: 100%;
+    /*z-index: 10;
+    position: fixed;
+    top: 880px;
+    left: 0;*/
+    background: white;
+}
+
+.col-sm-1 {
+	width: 150px;
+	height: 128px;
+	border-right:2px solid black;
+	border-left: 2px solid black;
+	border-top: 2px solid black;
+	padding-top: 50px;
+}
+
+.col-sm-1 a {
+	text-decoration-line: none;
+	color: black;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.col-sm-1 img{
+	width: 45px;
+}

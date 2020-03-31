@@ -1,0 +1,153 @@
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+.container-fluid {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row {
+	width: 100%;
+    padding: 0px;
+    margin: 0px;
+    border-top: 2px solid black;
+	border-right:2px solid black;
+	border-left: 2px solid black;
+}
+
+.col-12 {
+	padding: 0px;
+    height: max-content;
+}
+
+
+.navbar-nav:hover{
+width:163px;
+overflow:visible;
+}
+
+li {
+	overflow: hidden;
+}
+
+.navbar-nav {
+position:absolute;
+top:0;
+bottom:0;
+left:80;
+width:3px;
+transition: width .4s linear;
+-webkit-transform:translateZ(0) scale(1,1);
+z-index:1000;
+background-color: white;
+}
+
+
+.nav-item{
+	height: 110px;
+	border-right:2px solid black;
+	border-bottom: 4px solid black;
+	border-left: 2px solid black;
+}
+
+.nav-link {
+	font-size: 24px;
+	font-weight: 700;
+	text-decoration: none;
+	color: #000;
+	height: 100%;
+	padding-top: 40px;
+}
+
+.nav-item:hover {
+	background-color: black;
+	color: #fff;
+}
+
+.nav-link:hover {
+	color: #fff;
+}
+
+.nav-item a {
+	width: 100%;
+	height: 110px !important;
+}
+
+.icone img {
+	width: 50px;
+	margin: 30px 50px;
+}
+
+.icone:hover {
+	filter: invert(1);
+}
+
+.omega1 {
+	height: 218px;
+	padding-top: 60px;
+	border: 2px solid black;
+	border-top: 2px solid black;
+	border-bottom: 4px solid black;
+}
+
+.haut {
+	height: 548px;
+    width: 100%;
+    border-top: 2px solid black;
+	border-right:2px solid black;
+	border-bottom: 2px solid black;
+	border-left: 2px solid black;
+    object-fit: cover; 
+}
+
+.gauche{
+	background-color: orange; 
+	height: 330px;
+	border-right:2px solid black;
+	border-bottom: 2px solid black;
+
+}
+
+.centre{
+	background-color: green; 
+	height: 330px;
+	border-right:2px solid black;
+	border-left: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+.droite{
+	background-color: purple; 
+	height: 330px;
+	border-right:4px solid black;
+	border-left: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+footer {
+	width: 100%;
+	z-index: 10;
+}
+
+.col-sm-1 {
+	width: 150px;
+	height: 127px;
+	border-right:2px solid black;
+	border-left: 2px solid black;
+	padding-top: 50px;
+}
+
+.col-sm-1 a {
+	text-decoration-line: none;
+	color: black;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.col-sm-1 img{
+	width: 45px;
+}

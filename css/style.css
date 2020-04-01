@@ -1,5 +1,6 @@
 body{
 	font-family: 'Roboto', sans-serif;
+	overflow-x: hidden;
 }
 
 .container-fluid {
@@ -24,10 +25,32 @@ body{
     height: max-content;
 }
 
+.col-12 .col-4{
+	padding: 0px;
+ 	margin: 0px;
+}
+
+.box{
+	display: flex !important;
+}
+
+.devant{
+	z-index: 50;
+}
+
+figure{
+	margin: 0px;
+}
+
+figure img {
+	width: 85%;
+	margin: 32px 0px;
+}
+
 
 .navbar-nav:hover{
-width:163px;
-overflow:visible;
+	width:163px;
+	overflow:visible;
 }
 
 li {
@@ -48,7 +71,7 @@ background-color: white;
 
 
 .nav-item{
-	height: 110px;
+	height: 111px;
 	border-right:2px solid black;
 	border-bottom: 4px solid black;
 	border-left: 2px solid black;
@@ -94,43 +117,10 @@ background-color: white;
 	border-bottom: 4px solid black;
 }
 
-.haut {
-	height: 548px;
-    width: 100%;
-    border-top: 2px solid black;
-	border-right:2px solid black;
-	border-bottom: 2px solid black;
-	border-left: 2px solid black;
-    object-fit: cover; 
-}
-
-.gauche{
-	background-color: orange; 
-	height: 330px;
-	border-right:2px solid black;
-	border-bottom: 2px solid black;
-
-}
-
-.centre{
-	background-color: green; 
-	height: 330px;
-	border-right:2px solid black;
-	border-left: 2px solid black;
-	border-bottom: 2px solid black;
-}
-
-.droite{
-	background-color: purple; 
-	height: 330px;
-	border-right:4px solid black;
-	border-left: 2px solid black;
-	border-bottom: 2px solid black;
-}
-
 footer {
 	width: 100%;
 	z-index: 10;
+	border-top: 1px solid black;
 }
 
 .col-sm-1 {
@@ -138,7 +128,7 @@ footer {
 	height: 127px;
 	border-right:2px solid black;
 	border-left: 2px solid black;
-	padding-top: 50px;
+	padding-top: 53px;
 }
 
 .col-sm-1 a {
@@ -152,6 +142,10 @@ footer {
 	width: 45px;
 }
 
-.white a {
-	color: #fff !important;
+
+.contour {
+	position: absolute;
+	left: 0;
+	top: 0px;
+	z-index: 500;
 }

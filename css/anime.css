@@ -44,7 +44,7 @@
 }
 
 .texte {
-    font-size: 4.5rem;
+    font-size: 3.57rem;
     line-height: 4rem;
     letter-spacing: -.06em;
     color: #000;
@@ -65,4 +65,92 @@
 }
 
 
-    
+
+
+
+.carton {
+    height: 100px;
+    margin: auto;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.boucle {
+  display: flex;
+  height: 100%;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.boucle, .carton {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 150px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
+
+.defile {
+    display: flex;
+}
+
+.numero {
+    display: flex;
+    width: 50rem;
+    height: auto;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.dialogue {
+    font-size: 3.57rem;
+    line-height: 4rem;
+    letter-spacing: -.06em;
+    color: #000;
+    text-transform: uppercase;
+  }
+
+.defile {
+    animation: omega 10s infinite linear;
+    }
+
+  @keyframes omega {
+    from {
+    transform: translateX(0%);
+    }
+
+    to {
+    transform: translateX(-100%);
+    }
+}
+
+
+.back {
+    position: absolute;
+    height: 150px;
+    width: 100%;
+    margin: auto;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -450;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    border: 4px solid black;
+    }

@@ -44,9 +44,9 @@ figure{
 
 figure img {
 	width: 85%;
-	margin: 32px 0px;
+	margin: 34px 0px;
+	border: 4px solid border;
 }
-
 
 .navbar-nav:hover{
 	width:163px;

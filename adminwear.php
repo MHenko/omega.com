@@ -115,7 +115,7 @@ $pdo = new PDO('mysql:host=localhost;dbname=alpha;charset=utf8', 'root', '', arr
           <a href="./admin.php"> Admin</a>
       </div>
 
-       <div class="col-12 col-sm-1 text-center bleu">
+       <div class="col-12 col-sm-1 text-center">
         <a href="./tshirt.php">T-SHIRTS</a>
       </div>
 

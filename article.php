@@ -11,7 +11,7 @@ $pdo = new PDO('mysql:host=localhost;dbname=alpha;charset=utf8', 'root', '', arr
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="icon" type="image/png" href="./image/favicon/favicon.png" />
 
-    <!-- Bootstrap CSS -->
+
     <?php include('./includes/styles.php') ?>
     <link rel="stylesheet" href="css/article.css">
     <link rel="stylesheet" href="css/anime.css">
@@ -26,7 +26,7 @@ $pdo = new PDO('mysql:host=localhost;dbname=alpha;charset=utf8', 'root', '', arr
 
            <li>
             <div class="omega1 text-center">
-              <a href="./home.html">
+              <a href="./home.php">
                 <img src="./image/logo/omega.png" alt="logo">
               </a>
             </div>

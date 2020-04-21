@@ -60,7 +60,7 @@ $pdo = new PDO('mysql:host=localhost;dbname=alpha;charset=utf8', 'root', '', arr
     <div class="row">
       <?php
         // Requêtes SQL pour récupérer toutes les lignes d'une table de la base de données
-        $result = $pdo->query("SELECT * FROM wear");
+        $result = $pdo->query("SELECT * FROM wear where type = 'TSHIRT'");
         // Boucle pour lister les résultats de la requête précédente
         while($listeWears = $result->fetch(PDO::FETCH_ASSOC))
 
@@ -79,6 +79,7 @@ $pdo = new PDO('mysql:host=localhost;dbname=alpha;charset=utf8', 'root', '', arr
               <h5 class="impact text-center"><?php echo $listeWears["prix"]; ?></h5>
             </figcaption>  
           </a>
+        </form>
         </figure>
 
       <?php  

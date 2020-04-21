@@ -46,7 +46,7 @@ $pdo = new PDO('mysql:host=localhost;dbname=alpha;charset=utf8', 'root', '', arr
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="icon" type="image/png" href="./image/favicon/favicon.png" />
 
-     <?php include('./includes/styles.php') ?>
+    <?php include('./includes/styles.php') ?>
     <link rel="stylesheet" href="css/admin.css">
    
     <title>Omega e-commerce</title>
@@ -60,7 +60,7 @@ $pdo = new PDO('mysql:host=localhost;dbname=alpha;charset=utf8', 'root', '', arr
   <ul class=" navbar-nav col-12 col-lg-1">
     <li>
       <div class="omega1 text-center">
-        <a href="./home.html">
+        <a href="./home.php">
         <img src="./image/logo/omega.png" alt="logo">
         </a>
       </div>
@@ -93,7 +93,7 @@ $pdo = new PDO('mysql:host=localhost;dbname=alpha;charset=utf8', 'root', '', arr
          <input class="col-lg-4" type="text" name="photo">
 
           <input type="hidden" name="MAX_FILE_SIZE" value="30000000" />
-          <input  class="col-lg-2 btn1" type="file" name="photo" accept="image/png, image/jpeg">AJOUT</input>
+          <input  class="col-lg-2" type="file" name="photo" accept="image/png, image/jpeg"></input>
 
           <div class="col-lg-6 block">
             <label class="text-center"> DESCRIPTIF</label>
@@ -107,7 +107,7 @@ $pdo = new PDO('mysql:host=localhost;dbname=alpha;charset=utf8', 'root', '', arr
   </div>
 
     <div class=" col-12 col-lg-1 omega1 text-center">
-      <a href="./home.html">
+      <a href="./adminwear.php">
         <img src="./image/logo/omega.png" alt="logo">
       </a>
     </div>

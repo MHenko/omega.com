@@ -44,7 +44,7 @@ $pdo = new PDO('mysql:host=localhost;dbname=alpha;charset=utf8', 'root', '', arr
 
           <li>
             <div class="omega1 text-center">
-              <a href="./home.html">
+              <a href="./home.php">
                 <img src="./image/logo/omega.png" alt="logo">
               </a>
             </div>
@@ -120,35 +120,35 @@ $pdo = new PDO('mysql:host=localhost;dbname=alpha;charset=utf8', 'root', '', arr
       </div>
 
       <div class="col-12 col-sm-1 text-center">
-        <a href="./chemise.html">CHEMISES</a>
+        <a href="./chemise.php">CHEMISES</a>
       </div>
 
       <div class="col-12 col-sm-1 text-center">
-        <a href="./sweat.html">SWEAT</a>
+        <a href="./sweat.php">SWEAT</a>
       </div>
 
       <div class="col-12 col-sm-1 text-center">
-        <a href="./veste.html">VESTES</a>
+        <a href="./veste.php">VESTES</a>
       </div>
 
       <div class="col-12 col-sm-1 text-center">
-        <a href="./manteau.html">MANTEAUX</a>
+        <a href="./manteau.php">MANTEAUX</a>
       </div>
 
       <div class="col-12 col-sm-1 text-center">
-        <a href="./pantalon.html">PANTALONS</a>
+        <a href="./pantalon.php">PANTALONS</a>
       </div>
 
       <div class="col-12 col-sm-1 text-center">
-        <a href="./chaussure.html">CHAUSSURES</a>
+        <a href="./chaussure.php">CHAUSSURES</a>
       </div>
 
       <div class="col-12 col-sm-1 text-center">
-        <a href="./sac.html">SACS</a>
+        <a href="./sac.php">SACS</a>
       </div>
 
       <div class="col-12 col-sm-1 text-center">
-        <a href="./accessoire.html">ACCESSOIRES</a>
+        <a href="./accessoire.php">ACCESSOIRES</a>
       </div>
 
       <div class="col-12 col-sm-1 text-center"></div>

@@ -47,7 +47,7 @@ $pdo = new PDO('mysql:host=localhost;dbname=alpha;charset=utf8', 'root', '', arr
           </li>
 
            <li class="nav-item">
-            <a class="icone" href="#"><img src="./image/svg/user.svg" alt="compte" ></a>
+              <a class="icone" href="connexion.php"><img src="./image/svg/user.svg" alt="compte" ></a>
           </li>
 
            <li class="nav-item text-center">

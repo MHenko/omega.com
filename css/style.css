@@ -126,7 +126,7 @@ footer {
 
 .col-sm-1 {
 	width: 150px;
-	height: 126px;
+	height: 127px;
 	border-right:2px solid black;
 	border-left: 2px solid black;
 	padding-top: 53px;
@@ -149,4 +149,8 @@ footer {
 	left: 0;
 	top: 0px;
 	z-index: 500;
+}
+
+.white a {
+	color: #fff;
 }

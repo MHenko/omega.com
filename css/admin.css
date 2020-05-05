@@ -68,6 +68,17 @@ input {
     font-size: 1.75rem;
 }
 
+input[type="file" i] {
+    background: black;
+    height: 100px;
+    display: block;
+    text-align: center;
+    padding: 22px 20px;
+    outline: none;
+    color: white;
+    cursor: pointer;
+}
+
 .word {
   height: 284px;
 }

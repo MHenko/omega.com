@@ -128,29 +128,6 @@ figure img {
 	
 }
 
-.gauche{
-	background-color: orange; 
-	height: 437px;
-	border-right:2px solid black;
-	border-bottom: 2px solid black;
-
-}
-
-.centre{
-	background-color: green; 
-	height: 437px;
-	border-right:2px solid black;
-	border-left: 2px solid black;
-	border-bottom: 2px solid black;
-}
-
-.droite{
-	background-color: purple; 
-	height: 437px;
-	border-right:4px solid black;
-	border-left: 2px solid black;
-	border-bottom: 2px solid black;
-}
 /*------------------------- HOVVER VETEMENT ----------------*/
 
  figure {
@@ -229,11 +206,9 @@ footer {
 	width: 45px;
 }
 
-
 .white a {
-	color: #fff !important;
+	color: #fff;
 }
-
 
 .bleu {
 	background-color: #DAFFFF;

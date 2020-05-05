@@ -39,44 +39,6 @@ $pdo = new PDO('mysql:host=localhost;dbname=alpha;charset=utf8', 'root', '', arr
   </head>
   <body>
 
-<div class="container-fluid">
-       <ul class="navbar-nav col-12 col-1">
-
-          <li>
-            <div class="omega1 text-center">
-              <a href="./home.php">
-                <img src="./image/logo/omega.png" alt="logo">
-              </a>
-            </div>
-          </li>
-
-          <li class="nav-item text-center">
-            <a class="nav-link" href="#">NOUVEAUTE</a>
-          </li>
-
-          <li class="nav-item text-center">
-            <a class="nav-link" href="#">HOMME</a>
-          </li>
-
-          <li class="nav-item text-center">
-            <a class="nav-link" href="#">FEMME</a>
-          </li>
-
-           <li class="nav-item">
-            <a class="icone" href="#"><img src="./image/svg/search.svg" alt="recherche"></a>
-          </li>
-
-           <li class="nav-item">
-            <a class="icone" href="#"><img src="./image/svg/user.svg" alt="compte" ></a>
-          </li>
-
-           <li class="nav-item text-center">
-            <a class="icone" href="#"><img src="./image/svg/bag.svg" alt="panier"></a>
-          </li>
-        </ul>
-    </div>
-
- 
   <div class="col-12">
      <div class="deleted-info">L'article a bien été supprimé</div>
     <div class="row">
@@ -111,8 +73,10 @@ $pdo = new PDO('mysql:host=localhost;dbname=alpha;charset=utf8', 'root', '', arr
 
 <footer>
    <div class="row">
-      <div class="col-12 col-sm-1 text-center white">
-          <a href="./admin.php"> Admin</a>
+      <div class="col-12 col-sm-1 text-center">
+        <a href="./home.php">
+          <img src="./image/logo/omega.png" alt="logo">
+        </a>
       </div>
 
        <div class="col-12 col-sm-1 text-center">
@@ -154,10 +118,11 @@ $pdo = new PDO('mysql:host=localhost;dbname=alpha;charset=utf8', 'root', '', arr
       <div class="col-12 col-sm-1 text-center"></div>
 
       <div class="col-12 col-sm-1 text-center">
-        <a href="#"><img src="./image/svg/arrow.svg" alt="fleche" ></a>
+        <a class="scroll-top" href="#"><img src="./image/svg/arrow.svg" alt="fleche" ></a>
       </div>
     </div>
 </footer>
+
 
     </div>
         <?php

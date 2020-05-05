@@ -43,8 +43,8 @@ $pdo = new PDO('mysql:host=localhost;dbname=alpha;charset=utf8', 'root', '', arr
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="icon" type="image/png" href="./image/favicon/favicon.png"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <?php include('./includes/styles.php') ?>
     <link rel="stylesheet" href="css/admin.css">
@@ -93,7 +93,7 @@ $pdo = new PDO('mysql:host=localhost;dbname=alpha;charset=utf8', 'root', '', arr
          <input class="col-lg-4" type="text" name="photo">
 
           <input type="hidden" name="MAX_FILE_SIZE" value="30000000" />
-          <input  class="col-lg-2" type="file" name="photo" accept="image/png, image/jpeg"></input>
+          <input  class="col-lg-2 file-1" type="file" name="photo" accept="image/png, image/jpeg">
 
           <div class="col-lg-6 block">
             <label class="text-center"> DESCRIPTIF</label>

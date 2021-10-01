@@ -25,9 +25,7 @@ body{
 	width: 100%;
     padding: 0px;
     margin: 0px;
-    border-top: 2px solid black;
-	border-right:2px solid black;
-	border-left: 2px solid black;
+    border-top: 3px solid black;
 }
 
 .col-12 {
@@ -180,6 +178,7 @@ figure figcaption:hover {
 
 footer {
 	width: 100%;
+	margin-left: 2px;
 	border-bottom: 2px solid black;
 	z-index: 10;
 	position: fixed;
@@ -189,11 +188,11 @@ footer {
 
 .col-sm-1 {
 	width: 150px;
-	height: 127px;
-	border-right:2px solid black;
-	border-left: 2px solid black;
-	padding-top: 50px;
+	height: 150px;
+	border-right:3px solid black;
+	padding-top: 60px;
 }
+
 
 .col-sm-1 a {
 	text-decoration-line: none;
